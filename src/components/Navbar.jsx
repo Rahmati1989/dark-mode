@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const Navbar = (props) => {
   const toggleMode = e => {
@@ -17,5 +17,4 @@ const Navbar = (props) => {
     </nav>
   );
 };
-
 export default Navbar;
