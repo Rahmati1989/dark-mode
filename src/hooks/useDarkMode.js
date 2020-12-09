@@ -1,4 +1,4 @@
-import useLocalStorage from './useLocalStorage'
+import useLocalStorage from './useLocalStorage.js'
 
 const useDarkMode = (darkMode)=> {
     const [name, setName] = useLocalStorage('name', darkMode);

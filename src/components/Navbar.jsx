@@ -4,6 +4,7 @@ const Navbar = (props) => {
   const toggleMode = e => {
     e.preventDefault();
     props.setDarkMode(!props.darkMode);
+    //used props 
   };
   return (
     <nav className="navbar">
